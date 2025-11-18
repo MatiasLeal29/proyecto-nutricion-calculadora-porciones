@@ -1,5 +1,140 @@
-[
-  { "nombre": "Manzana", "porcion_equivalente": 100 },
-  { "nombre": "Pan", "porcion_equivalente": 30 },
-  { "nombre": "Leche", "porcion_equivalente": 200 }
-]
+{
+  "cereales": [
+    { "id": "arroz", "nombre": "Arroz", "porcion": "¾ taza (100 g)" },
+    { "id": "arroz_integral", "nombre": "Arroz integral", "porcion": "¾ taza (120 g)" },
+    { "id": "fideos", "nombre": "Fideos", "porcion": "¾ taza (110 g)" },
+    { "id": "pan_marraqueta", "nombre": "Pan marraqueta/hallulla", "porcion": "½ unidad (50 g)" },
+    { "id": "pan_molde", "nombre": "Pan molde", "porcion": "3 rebanadas (60 g)" },
+    { "id": "pan_integral", "nombre": "Pan integral molde", "porcion": "1¼ rebanada (50 g)" },
+    { "id": "pan_dulce", "nombre": "Pan dulce (Huevo)", "porcion": "¼ unidad (50 g)" },
+    { "id": "pan_amasado", "nombre": "Pan amasado", "porcion": "¼ unidad (50 g)" },
+    { "id": "galletas_agua", "nombre": "Galletas de agua", "porcion": "8 unidades (40 g)" },
+    { "id": "papa", "nombre": "Papa", "porcion": "1 unidad (150 g)" }
+  ],
+
+  "verduras": [
+    { "id": "acelga", "nombre": "Acelga", "porcion": "½ taza (110 g)" },
+    { "id": "alcachofa", "nombre": "Alcachofa", "porcion": "1 unidad (50 g)" },
+    { "id": "berenjena", "nombre": "Berenjena", "porcion": "½ taza (100 g)" },
+    { "id": "brocoli", "nombre": "Brócoli", "porcion": "1 taza (100 g)" },
+    { "id": "champiñones", "nombre": "Champiñones", "porcion": "¾ taza (100 g)" },
+    { "id": "coliflor", "nombre": "Coliflor", "porcion": "1 taza (110 g)" },
+    { "id": "esparrago", "nombre": "Espárrago", "porcion": "5 unidades (100 g)" },
+    { "id": "espinaca", "nombre": "Espinaca cocida", "porcion": "½ taza (100 g)" },
+    { "id": "porotos_verdes", "nombre": "Porotos verdes", "porcion": "¾ taza (70 g)" },
+    { "id": "zanahoria", "nombre": "Zanahoria cocida", "porcion": "1 taza (50 g)" },
+    { "id": "zanahoria_cruda", "nombre": "Zanahoria cruda", "porcion": "½ taza" },
+    { "id": "zapallo", "nombre": "Zapallo", "porcion": "½ taza (70 g)" },
+    { "id": "betarraga", "nombre": "Betarraga", "porcion": "1 taza (130 g)" },
+    { "id": "cebolla", "nombre": "Cebolla", "porcion": "¾ taza (60 g)" },
+    { "id": "tomate", "nombre": "Tomate", "porcion": "1 unidad (120 g)" },
+    { "id": "apio", "nombre": "Apio", "porcion": "1 taza (70 g)" },
+    { "id": "cochayuyo", "nombre": "Cochayuyo", "porcion": "1 taza (25 g)" },
+    { "id": "lechuga", "nombre": "Lechuga", "porcion": "1 taza (50 g)" },
+    { "id": "pimenton", "nombre": "Pimentón", "porcion": "½ taza (60 g)" },
+    { "id": "repollo", "nombre": "Repollo", "porcion": "1 taza (50 g)" }
+  ],
+
+  "frutas": [
+    { "id": "caqui", "nombre": "Caqui", "porcion": "1 unidad (90 g)" },
+    { "id": "cerezas", "nombre": "Cerezas", "porcion": "15 unidades (90 g)" },
+    { "id": "chirimoya", "nombre": "Chirimoya", "porcion": "¼ unidad (90 g)" },
+    { "id": "ciruelas", "nombre": "Ciruelas", "porcion": "3 unidades (110 g)" },
+    { "id": "damasco", "nombre": "Damasco", "porcion": "3 unidades (120 g)" },
+    { "id": "durazno", "nombre": "Durazno", "porcion": "1 unidad (130 g)" },
+    { "id": "frambuesas", "nombre": "Frambuesas", "porcion": "1 taza (130 g)" },
+    { "id": "frutillas", "nombre": "Frutillas", "porcion": "1 taza (200 g)" },
+    { "id": "higos", "nombre": "Higos", "porcion": "2 unidades (80 g)" },
+    { "id": "kiwi", "nombre": "Kiwi", "porcion": "2 unidades (100 g)" },
+    { "id": "manzana", "nombre": "Manzana", "porcion": "1 unidad (100 g)" },
+    { "id": "melon", "nombre": "Melón", "porcion": "1 taza (180 g)" },
+    { "id": "membrillo", "nombre": "Membrillo", "porcion": "1 unidad (100 g)" },
+    { "id": "naranja", "nombre": "Naranja", "porcion": "1 unidad (120 g)" },
+    { "id": "pera", "nombre": "Pera", "porcion": "1 unidad (100 g)" },
+    { "id": "piña", "nombre": "Piña", "porcion": "¾ taza (120 g)" },
+    { "id": "platano", "nombre": "Plátano", "porcion": "½ unidad (60 g)" },
+    { "id": "sandia", "nombre": "Sandía", "porcion": "1 taza (150 g)" },
+    { "id": "tuna", "nombre": "Tuna", "porcion": "2 unidades (150 g)" },
+    { "id": "uvas", "nombre": "Uvas", "porcion": "10 unidades (90 g)" }
+  ],
+
+  "lacteos": [
+    { "id": "queso_gauda", "nombre": "Queso gauda", "porcion": "½ lámina (20 g)" },
+    { "id": "queso_cabra", "nombre": "Queso de cabra", "porcion": "½ lámina (25 g)" },
+    { "id": "queso_parmesano", "nombre": "Queso parmesano", "porcion": "3 cdas (15 g)" },
+    { "id": "queso_untable", "nombre": "Queso untable", "porcion": "2 cdas (25 g)" },
+    { "id": "leche_entera", "nombre": "Leche entera", "porcion": "1 taza (200 cc)" },
+
+    { "id": "quesillo", "nombre": "Quesillo", "porcion": "2 rodelas (60 g)" },
+    { "id": "leche_descremada", "nombre": "Leche descremada", "porcion": "1 taza (200 cc)" },
+    { "id": "tofu", "nombre": "Tofu", "porcion": "1 rebanada (70 g)" },
+    { "id": "yogurt_light", "nombre": "Yogurt descremado", "porcion": "1 unidad (150 cc)" }
+  ],
+
+  "carnes": [
+    { "id": "vacuno_cazuela", "nombre": "Carne de vacuno grasa", "porcion": "1 trozo palma mano (50 g)" },
+    { "id": "pana_pollo", "nombre": "Pana de pollo", "porcion": "1½ unidad (50 g)" },
+    { "id": "jamon", "nombre": "Jamón", "porcion": "1 tajada (40 g)" },
+    { "id": "longaniza", "nombre": "Longaniza", "porcion": "1 rodela (45 g)" },
+    { "id": "mortadela", "nombre": "Mortadela", "porcion": "3 tajadas (60 g)" },
+    { "id": "salame", "nombre": "Salame", "porcion": "1 tajada (20 g)" },
+    { "id": "prieta", "nombre": "Prieta", "porcion": "1 unidad (100 g)" },
+    { "id": "vienesa", "nombre": "Vienesa", "porcion": "1 unidad (40 g)" },
+    { "id": "atun_aceite", "nombre": "Atún al aceite", "porcion": "⅓ taza (50 g)" },
+    { "id": "jurel_aceite", "nombre": "Jurel al aceite/agua", "porcion": "⅓ taza (50 g)" },
+    { "id": "salmon", "nombre": "Salmón crudo", "porcion": "1 trozo (80 g)" },
+
+    { "id": "vacuno_magro", "nombre": "Carne de vacuno magra", "porcion": "1 trozo palma mano (50 g)" },
+    { "id": "pollo", "nombre": "Pollo", "porcion": "1 trozo palma mano (50 g)" },
+    { "id": "pavo", "nombre": "Pavo", "porcion": "1 trozo palma mano (50 g)" },
+    { "id": "jurel", "nombre": "Jurel", "porcion": "1 trozo (80 g)" },
+    { "id": "merluza", "nombre": "Merluza", "porcion": "1 trozo (80 g)" },
+    { "id": "atun_agua", "nombre": "Atún al agua", "porcion": "⅓ taza (60 g)" },
+    { "id": "choritos", "nombre": "Choritos", "porcion": "6 unidades (60 g)" },
+    { "id": "almejas", "nombre": "Almejas", "porcion": "6 unidades (60 g)" },
+    { "id": "machas", "nombre": "Machas", "porcion": "5 unidades (50 g)" },
+    { "id": "huevo", "nombre": "Huevo", "porcion": "1 unidad (50 g)" }
+  ],
+
+  "leguminosas": [
+    { "id": "arvejas", "nombre": "Arvejas cocidas", "porcion": "1½ taza (190 g)" },
+    { "id": "habas", "nombre": "Habas cocidas", "porcion": "1 taza (150 g)" },
+    { "id": "porotos", "nombre": "Porotos", "porcion": "¾ taza (100 g)" },
+    { "id": "garbanzos", "nombre": "Garbanzos", "porcion": "¾ taza (130 g)" },
+    { "id": "lentejas", "nombre": "Lentejas", "porcion": "¾ taza (140 g)" },
+    { "id": "chicharo", "nombre": "Chícharo", "porcion": "½ taza (60 g)" },
+    { "id": "choclo", "nombre": "Choclo cocido", "porcion": "1 taza (160 g)" }
+  ],
+
+  "lipidos": [
+    { "id": "almendras", "nombre": "Almendras", "porcion": "26 unidades (50 g)" },
+    { "id": "avellanas", "nombre": "Avellanas", "porcion": "50 unidades (30 g)" },
+    { "id": "mani", "nombre": "Maní", "porcion": "30 unidades (30 g)" },
+    { "id": "nuez", "nombre": "Nuez", "porcion": "5 unidades (25 g)" },
+    { "id": "pistacho", "nombre": "Pistacho", "porcion": "40 unidades (30 g)" },
+    { "id": "aceituna", "nombre": "Aceitunas", "porcion": "11 unidades (115 g)" },
+    { "id": "palta", "nombre": "Palta", "porcion": "3 cucharadas (30 g)" }
+  ],
+
+  "aceites": [
+    { "id": "aceite_maravilla", "nombre": "Aceite de maravilla", "porcion": "4 cdtas (20 cc)" },
+    { "id": "aceite_maiz", "nombre": "Aceite de maíz", "porcion": "4 cdtas (20 cc)" },
+    { "id": "aceite_soya", "nombre": "Aceite de soya", "porcion": "4 cdtas (20 cc)" },
+    { "id": "aceite_oliva", "nombre": "Aceite de oliva", "porcion": "4 cdtas (20 cc)" },
+    { "id": "mantequilla", "nombre": "Mantequilla", "porcion": "4 cdtas (24 cc)" },
+    { "id": "margarina", "nombre": "Margarina", "porcion": "4 cdtas (24 cc)" },
+    { "id": "mayonesa", "nombre": "Mayonesa", "porcion": "1 cda (28 cc)" },
+    { "id": "crema", "nombre": "Crema espesa", "porcion": "4 cdas (70 cc)" },
+    { "id": "tocino", "nombre": "Tocino", "porcion": "1½ tajada" },
+    { "id": "pate", "nombre": "Paté", "porcion": "2 cdas (40 g)" },
+    { "id": "manteca", "nombre": "Manteca de cerdo", "porcion": "2 cdas (40 g)" }
+  ],
+
+  "azucares": [
+    { "id": "azucar", "nombre": "Azúcar", "porcion": "1 cdta (5 g)" },
+    { "id": "miel_abeja", "nombre": "Miel de abeja", "porcion": "1 cdta (5 g)" },
+    { "id": "miel_palma", "nombre": "Miel de palma", "porcion": "1 cdta (5 g)" },
+    { "id": "mermelada", "nombre": "Mermelada", "porcion": "1 cdta (5 g)" },
+    { "id": "manjar", "nombre": "Manjar", "porcion": "1 cdta (5 g)" }
+  ]
+}

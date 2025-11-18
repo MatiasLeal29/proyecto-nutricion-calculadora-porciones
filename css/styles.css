@@ -1,49 +1,35 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background: #f9f9f9;
-  color: #333;
+.tabs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 20px;
 }
 
-header, footer {
-  background: #004d40;
-  color: white;
-  text-align: center;
-  padding: 1rem;
-}
-
-main {
-  padding: 2rem;
-  max-width: 600px;
-  margin: auto;
-}
-
-label {
-  display: block;
-  margin-top: 1rem;
-}
-
-input, select, button {
-  width: 100%;
-  padding: 0.5rem;
-  margin-top: 0.5rem;
-}
-
-button {
-  background: #00796b;
-  color: white;
+.tab-btn {
+  padding: 10px 20px;
   border: none;
   cursor: pointer;
+  background: #ccc;
+  border-radius: 8px;
+  transition: 0.2s;
 }
 
-button:hover {
-  background: #004d40;
+.tab-btn.active {
+  background: #3b82f6;
+  color: white;
 }
 
-#result-section {
-  margin-top: 2rem;
-  padding: 1rem;
-  background: #e0f2f1;
-  border-radius: 5px;
+.food-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+#tab-content {
+  max-width: 700px;
+  margin: 0 auto;
 }
