@@ -1,0 +1,5 @@
+[
+  { "nombre": "Manzana", "porcion_equivalente": 100 },
+  { "nombre": "Pan", "porcion_equivalente": 30 },
+  { "nombre": "Leche", "porcion_equivalente": 200 }
+]
