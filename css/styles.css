@@ -1,35 +1,55 @@
-.tabs {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 6px;
-  margin-bottom: 20px;
+/* Estilos para la tabla de resumen/calculadora */
+
+.summary-container {
+    max-width: 900px;
+    margin: 20px auto;
 }
 
-.tab-btn {
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-  background: #ccc;
-  border-radius: 8px;
-  transition: 0.2s;
+#calculadora-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 14px;
 }
 
-.tab-btn.active {
-  background: #3b82f6;
-  color: white;
+#calculadora-table th,
+#calculadora-table td {
+    border: 1px solid #ccc;
+    padding: 10px 8px;
+    text-align: left;
 }
 
-.food-item {
-  display: flex;
-  justify-content: space-between;
-  padding: 12px;
-  border: 1px solid #ddd;
-  margin-bottom: 10px;
-  border-radius: 8px;
+#calculadora-table th {
+    background-color: #f2f2f2;
+    text-align: center;
 }
 
-#tab-content {
-  max-width: 700px;
-  margin: 0 auto;
+.center-text {
+    text-align: center !important;
+}
+
+/* Estilos específicos para filas */
+.total-row td {
+    background-color: #d1e7dd; /* Color claro para el total */
+    font-weight: bold;
+}
+
+.requerimiento-row td {
+    background-color: #fff3cd; /* Color para indicar interactividad */
+}
+
+.adecuacion-row td {
+    background-color: #cff4fc; /* Color para el resultado final */
+    font-weight: bold;
+}
+
+/* Estilos para los inputs de requerimiento */
+.requerimiento-row input[type="number"] {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 14px;
 }
